@@ -1,0 +1,21 @@
+{
+  "name": "@minor-cli-dev/core",
+  "version": "1.0.0",
+  "description": "minor-cli-dev core",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@minor-cli-dev/utils":"^1.0.0"
+  }
+}
